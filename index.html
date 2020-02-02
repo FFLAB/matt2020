@@ -47,6 +47,15 @@ body {
 }
 .gallery>div{
     border: 5px solid #222;
+    transition: all 0.3s ease;
+}
+.gallery>div:hover{
+    transform: scale(1.5);
+    z-index: 10;
+    /* grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 7; */
 }
 
 .gallery__item--1 {
@@ -61,7 +70,6 @@ body {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
-  z-index:10;
 }
 
 .gallery__item--3 {
@@ -69,7 +77,6 @@ body {
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 3;
-  z-index: 1;
 }
 
 .gallery__item--4 {
@@ -77,7 +84,6 @@ body {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 5;
-  z-index: 10;
 }
 
 .gallery__item--5 {
@@ -85,6 +91,7 @@ body {
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 5;
+  background-color: #fff;
 }
 
 .gallery__item--6 {
