@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <head>
     <meta charset="UTF-8">
     <title>Grid lines</title>
@@ -41,51 +44,15 @@ body {
   display: block;
   overflow: hidden;
 }
-.gallery div{
+.gallery>div{
     border: 5px solid #222;
 }
-img{
-    /* border: 5px solid #222; */
-}
-/* .img--1{
-    border-radius: 50px 40px 0 50px;
-}
-.img--2{
-    border-radius: 50px 50px 0 0;
-}
-.img--3{
-    border-radius: 50px 50px 50px 0;
-}
-
-.img--4{
-    border-radius: 50px 0 0 50px;
-}
-.img--5{
-    border-radius: 0;
-}
-.img--6{
-    border-radius: 0 50px 50px 0;
-}
-
-.img--7{
-    border-radius: 50px 0 50px 50px;
-}
-.img--8{
-    border-radius: 0px 0px 50px 50px;
-}
-.img--9{
-    border-radius: 0 50px 50px 50px;
-} */
 
 .gallery__item--1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 2;  */
-  /* grid-row: 1 / span 2; */
 }
 
 .gallery__item--2 {
@@ -94,24 +61,14 @@ img{
   grid-row-start: 1;
   grid-row-end: 3;
   z-index:10;
-
-  /** Alternative Syntax **/
-  /* grid-column: 3 / span 2;  */
-  /* grid-row: 1 / span 2; */
 }
-/* bigger */
+
 .gallery__item--3 {
-  /* grid-column-start: 3;
-  /* esempio sovrapposizione livelli con z-index*/
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 3;
   z-index: 1;
-
-  /** Alternative Syntax **/
-  /* grid-column: 5 / span 4;
-  grid-row: 1 / span 5; */
 }
 
 .gallery__item--4 {
@@ -120,10 +77,6 @@ img{
   grid-row-start: 3;
   grid-row-end: 5;
   z-index: 10;
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 4;  */
-  /* grid-row: 3 / span 3; */
 }
 
 .gallery__item--5 {
@@ -131,10 +84,6 @@ img{
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 5;
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 4; */
-  /* grid-row: 6 / span 3; */
 }
 
 .gallery__item--6 {
@@ -142,10 +91,6 @@ img{
   grid-column-end: 7;
   grid-row-start: 3;
   grid-row-end: 5;
-
-  /** Alternative Syntax **/
-  /* grid-column: 5 / span 4; */
-  /* grid-row: 6 / span 3; */
 }
 .gallery__item--7 {
   grid-column-start: 1;
